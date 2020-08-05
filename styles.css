@@ -21,13 +21,13 @@ ul {
     display: inline-flex;
     background-color: burlywood;
     text-align: center;
-    width: 100%;
+    width: 100%; 
    
 }
 ul li{
     width: 200px;
     margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
     background-color: black;
     opacity: 0.8;
@@ -67,8 +67,8 @@ ul li:hover a{
     background: none;
     padding: 0px;
     margin-bottom: 10px;
-   
-    
+
+
 }
 .footer ul li{
     text-decoration:none;
@@ -89,10 +89,29 @@ ul li:hover a{
 /*header and footer default above*/
 .content{
     display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 .content img{
     height: 250px;
     width: 250px;
 }
-
-
+.content a{
+    text-decoration: none;
+    color: red;
+    background-color: black;
+}
+.content a span{
+    position: relative;
+    width: 50%;
+    height: auto;
+    
+}
+.content a span h4{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
