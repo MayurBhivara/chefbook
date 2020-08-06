@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+}
+
+h1{
+   
+    text-align: center;
+    
+    margin-bottom: 0px;
+    padding-top: 10px;
+    background-color: burlywood;
+    
+}
+ul {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+    display: inline-flex;
+    background-color: burlywood;
+    text-align: center;
+    width: 100%; 
+   
+}
+ul li{
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 7px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li:hover a{
+    font: bolder;
+    color: chocolate;
+}
+.footer{
+    padding-top: 10px;
+    margin:0px;
+    background-color:#262d36;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer-bottom{
+    padding-top:10px ;
+    background-color:#222831;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    position: absolute;
+    width: 100%;
+}
+.footer ul{
+    margin-left: 570px;
+    background: none;
+    padding: 0px;
+    margin-bottom: 10px;
+
+
+}
+.footer ul li{
+    text-decoration:none;
+    background: none;
+    padding: 0px;
+    margin: 10px;
+    width: 30px;
+}
+.footer ul li img{
+    width: 40px;
+    height: 40px;
+}
+.footer ul li:hover img{
+    width: 44px;
+    height: 44px;
+    border: aqua;
+}
