@@ -101,6 +101,7 @@ ul li:hover a{
     color: red;
     background-color: black;
     padding: 5PX;
+    left: 10px;
 }
 .content a span{
     position: relative;
