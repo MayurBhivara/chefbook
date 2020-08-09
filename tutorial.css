@@ -86,39 +86,29 @@ ul li:hover a{
     height: 44px;
     border: aqua;
 }
-/*header and footer default above*/
-.content{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    justify-content: space-evenly;
+.Ingridents ul{
+    margin-top: 20px;
+    float: left;
+    list-style: circle;
+    display: block;
 }
-.content img{
-    height: 250px;
-    width: 250px;
-}
-.content a{
-    text-decoration: none;
-    color: red;
-    background-color: black;
-    padding: 5PX;
-}
-.content a span{
-    position: relative;
-    width: 50%;
-    height: auto;
-    
-}
-.content a span h4{
-    text-align: center;
-}
-h3{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
-}
-.content a:hover{
-    background-color: red;
+.Ingridents ul li{
     color: blue;
+}
+iframe{
+    margin-left: 50px;
+    margin: 50px;
+    padding: 5px;
+}
+h2{
+    text-align: center;
     font-weight: bold;
+
+}
+.method p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.method{
+    margin: 10px;
 }
